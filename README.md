@@ -12,12 +12,12 @@ The following Hadoop tools and others were used:
 
 I will be using the same dataset on [this repository](https://github.com/leorickli/rox-test), specifically in [this "cleaned_files" folder](https://github.com/leorickli/rox-test/tree/main/cleaned_files). Feel free to check it out if you want to see the cleaning and EDA procedures in the ["cleaning_eda_notebooks"](https://github.com/leorickli/rox-test/tree/main/cleaning_eda_notebooks) that were made in the dataset. 
 
-## Deploying the infrastructure
+### Deploying the infrastructure
 
 I created simple Dataproc cluster (1 master, 1 worker) to deal with the most demanding machine learning job. This dataset is very small so I had no trouble in processing power.
 
 There is a [Jupyter notebook](https://github.com/leorickli/bike-company-spark/blob/main/spark_notebook.ipynb) that you can find in this project, it contains the data analysis and machine learning for the project.
 
-## Conclusions
+### Conclusions
 
 Machine learning is all about experimentation, there is a big margin for experimentation and feature engineering in this dataset. The model works, but its still very unrefined, it has a lot of potential for future exploration.
