@@ -1,5 +1,7 @@
 # bike-company-spark
 
+<img width="437" alt="Screenshot 2023-10-22 at 17 09 06" src="https://github.com/leorickli/bike-company-spark/assets/106999054/e2db42c3-7a60-4c03-b64f-b4c1b56914cc">
+
 This project will be an an addendum to the [bike-company-hadoop](https://github.com/leorickli/bike-company-hadoop/blob/main/README.md#bike-company-hadoop) project. This time, I will use Spark for data analysis, most specificaly, PySpark to analyse the SQL queries made on the last project and Spark ML to make a linear regression model for predicting the total sales of the top 10 products in this dataset.
 
 *Apache Spark is an open-source, distributed computing system that is designed for big data processing and analytics. It was developed at the AMPLab at the University of California, Berkeley and later donated to the Apache Software Foundation, where it became an Apache project. Spark is built to be fast, flexible, and easy to use, making it one of the most popular frameworks for big data processing.*
@@ -14,7 +16,7 @@ I will be using the same dataset on [this repository](https://github.com/leorick
 
 ### Deploying the infrastructure
 
-I created simple Dataproc cluster (1 master, 1 worker) to deal with the most demanding machine learning job. This dataset is very small so I had no trouble in processing power.
+I created simple Dataproc cluster (1 master, 1 worker) to deal with the most the machine learning job. This dataset is very small so I had no trouble in processing power.
 
 There is a [Jupyter notebook](https://github.com/leorickli/bike-company-spark/blob/main/spark_notebook.ipynb) that you can find in this project, it contains the data analysis and machine learning for the project.
 
