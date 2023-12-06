@@ -16,7 +16,7 @@ I will be using the same dataset on [this repository](https://github.com/leorick
 
 ### Deploying the infrastructure
 
-I created simple Dataproc cluster (1 master, 1 worker) to deal with the most the machine learning job. This dataset is very small so I had no trouble in processing power.
+I created simple Dataproc cluster (1 master, 1 worker) to deal with the machine learning job. This dataset is very small so I had no trouble in processing power.
 
 There is a [Jupyter notebook](https://github.com/leorickli/bike-company-spark/blob/main/spark_notebook.ipynb) that you can find in this project, it contains the data analysis and machine learning for the project.
 
